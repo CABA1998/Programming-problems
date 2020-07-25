@@ -1,9 +1,9 @@
-#    _________    ____  ___ 
+#    _________    ____  ___
 #   / ____/   |  / __ )/   |
 #  / /   / /| | / __  / /| |
 # / /___/ ___ |/ /_/ / ___ |
 # \____/_/  |_/_____/_/  |_|
-                          
+
 # Python
 
 # Ingreso de la informacion
@@ -30,7 +30,7 @@ def string_comun(string1, string2, string3):
         for k in range(0,i+1):
             if comparar_strings(string1[k:len(string1)+(k-i)], string2) and comparar_strings(string1[k:len(string1)+(k-i)], string3):
                 return string1[k:len(string1)+(k-i)]
-    
+
 #Organizo la informacion en listas segun la longitud de las palabras
 lista_palabras = [palabra1, palabra2, palabra3]
 lista_numeros = np.array(numeros)

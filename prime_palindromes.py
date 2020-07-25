@@ -3,7 +3,7 @@
 #  / /   / /| | / __  / /| |
 # / /___/ ___ |/ /_/ / ___ |
 # \____/_/  |_/_____/_/  |_|
-                          
+
 # Python
 
 import numpy as np
@@ -26,18 +26,18 @@ while True:
         print("Intente de nuevo")
 
 """ El siguiente algoritmo  se trata de buscar en los numeros palindromos,
-esto con el fin de ahorrar iteraciones """ 
+esto con el fin de ahorrar iteraciones """
 
-for i in range(1, 10**7): 
-    # Miramos los numeros de logitud impar 
-    prueba = str(i) 
-    el_numero = int(prueba + prueba[-2::-1]) 
+for i in range(1, 10**7):
+    # Miramos los numeros de logitud impar
+    prueba = str(i)
+    el_numero = int(prueba + prueba[-2::-1])
     if el_numero >= numero and primo(el_numero):
         print(el_numero)
-        break 
+        break
     # Miramos los numeros de longitud par
-    prueba = str(i) 
-    el_numero = int(prueba + prueba[-1::-1]) 
-    if el_numero >= numero and primo(el_numero): 
+    prueba = str(i)
+    el_numero = int(prueba + prueba[-1::-1])
+    if el_numero >= numero and primo(el_numero):
         print(el_numero)
         break
