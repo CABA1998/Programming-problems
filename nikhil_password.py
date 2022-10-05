@@ -16,6 +16,7 @@ palabra2 = raw_input()
 palabra3 = raw_input()
 
 # Funcion para comparar dos strings
+# Test
 
 def comparar_strings(string1,string2):
     for j in range(0,len(string2)-len(string1)+1):
