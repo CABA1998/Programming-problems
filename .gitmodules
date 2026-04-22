@@ -1,0 +1,3 @@
+[submodule "justrunthis"]
+	path = justrunthis
+	url = https://github.com/CABA1998/justrunthis.git
